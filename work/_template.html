@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-KQCF47VFV1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-KQCF47VFV1');
+  </script>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>[Case Study Title] — UX/UI Case Study — Himanshu Matlotia</title>
+  
+  <meta name="description" content="[Case Study Subtitle / Overview] — Product design case study by Himanshu Matlotia.">
+  
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐾</text></svg>">
+
+  <!-- Google Fonts: Anton (Display) + Plus Jakarta Sans (Body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- GSAP Core & ScrollTrigger CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="../css/base.css">
+  <link rel="stylesheet" href="../css/case-study.css">
+</head>
+<body>
+
+  <div class="site-wrapper">
+    
+    <!-- Top Back Navigation (Signature Blue Card) -->
+    <header class="case-study-nav-wrapper">
+      <div class="site-container">
+        <nav class="case-study-nav" aria-label="Case Study Navigation">
+          <a href="../index.html#work" class="case-study-nav__back">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+              <path d="M19 12H5M12 19l-7-7 7-7" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg>
+            <span>Back to Work</span>
+          </a>
+          <div class="case-study-nav__links">
+            <a href="../index.html" class="case-study-nav__link">Home</a>
+            <a href="../index.html#work" class="case-study-nav__link">Work</a>
+            <a href="../index.html#contact" class="case-study-nav__link">Contact</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content">
+      
+      <!-- 1. Hero Intro -->
+      <section class="cs-hero">
+        <div class="site-container">
+          <span class="cs-hero__tag">[Discipline / Category Tag]</span>
+          <h1 class="cs-hero__title">[Main Case Study Headline]</h1>
+          <p class="cs-hero__subtitle">[Brief problem overview and business context]</p>
+
+          <div class="cs-hero__metadata-grid">
+            <div class="cs-meta-item">
+              <span class="cs-meta-label">Role</span>
+              <span class="cs-meta-val">Lead Product Designer</span>
+            </div>
+            <div class="cs-meta-item">
+              <span class="cs-meta-label">Discipline</span>
+              <span class="cs-meta-val">UX &amp; Interaction Design</span>
+            </div>
+            <div class="cs-meta-item">
+              <span class="cs-meta-label">Platform</span>
+              <span class="cs-meta-val">Web / Mobile</span>
+            </div>
+            <div class="cs-meta-item">
+              <span class="cs-meta-label">Scope</span>
+              <span class="cs-meta-val">End-to-End Redesign</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 2. Vertical Stack of Case Study Pages -->
+      <section class="cs-stack-container" id="case-study-stack" aria-label="Case Study Document Pages">
+        
+        <!-- Repeat for each page in order -->
+        <article class="cs-stack-item">
+          <img src="../assets/case-studies/[case-name]/01.webp" alt="Page 1 description" width="1600" height="900" loading="eager" fetchpriority="high" />
+        </article>
+
+        <article class="cs-stack-item">
+          <img src="../assets/case-studies/[case-name]/02.webp" alt="Page 2 description" width="1600" height="900" loading="eager" />
+        </article>
+
+        <article class="cs-stack-item">
+          <img src="../assets/case-studies/[case-name]/03.webp" alt="Page 3 description" width="1600" height="900" loading="lazy" />
+        </article>
+
+      </section>
+
+      <!-- 3. PREVIOUS / NEXT PROJECT NAVIGATION -->
+      <section class="site-container">
+        <a href="[next-case-study].html" class="cs-next-card">
+          <span class="cs-next-label">Next Case Study</span>
+          <span class="cs-next-title">[Next Case Study Title] &rarr;</span>
+        </a>
+      </section>
+
+    </main>
+
+    <!-- Shared Footer Container (Injected automatically via js/main.js) -->
+    <div id="shared-footer"></div>
+
+    <!-- Floating Scroll-To-Top Button -->
+    <button type="button" class="scroll-to-top-btn" id="scroll-to-top-btn" aria-label="Scroll to top" title="Back to top">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+        <path d="M12 19V5M5 12l7-7 7 7" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </button>
+
+  </div>
+
+  <!-- Main JavaScript Files -->
+  <script src="../js/main.js"></script>
+  <script src="../js/cat.js"></script>
+</body>
+</html>
